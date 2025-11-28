@@ -1,0 +1,3 @@
+mse:
+  _target_: naf.src.loss.Loss
+  loss_type: mse

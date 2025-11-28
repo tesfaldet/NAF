@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "naf"
+version = "1.0.0"
+description = "NAF: Zero-Shot Feature Upsampling via Neighborhood Attention Filtering"
+authors = [{ name = "Loick Chambon, Paul Couairon, Eloi Zablocki, Alexandre Boulch, Nicolas Thome, Matthieu Cord." }]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]

@@ -15,7 +15,7 @@ from rich.console import Console
 from rich.syntax import Syntax
 from tqdm import tqdm
 
-from utils.training import (
+from naf.utils.training import (
     compute_feats,
     get_batch,
     get_dataloaders,

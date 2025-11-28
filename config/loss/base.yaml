@@ -1,3 +1,0 @@
-mse:
-  _target_: src.loss.Loss
-  loss_type: mse

@@ -17,7 +17,7 @@ from rich.syntax import Syntax
 from tqdm import tqdm
 
 # Import project components
-from utils.training import get_batch, get_dataloaders, logger, setup_training_optimizations
+from naf.utils.training import get_batch, get_dataloaders, logger, setup_training_optimizations
 
 warnings.filterwarnings("ignore")
 

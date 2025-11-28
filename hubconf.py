@@ -2,7 +2,7 @@ dependencies = ["torch", "natten"]
 
 import torch
 
-from src.model.naf import NAF
+from naf.src.model.naf import NAF
 
 
 def naf(pretrained: bool = True, device="cpu"):

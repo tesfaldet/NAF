@@ -1,8 +1,0 @@
-_target_: evaluation.dataset.voc.VOCDataset
-tag: "voc" 
-root: ${dataroot}
-split: "train"              
-year: "2012"
-download: false             
-include_labels: true
-num_classes: 21             
